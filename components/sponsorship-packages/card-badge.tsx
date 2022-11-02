@@ -21,7 +21,7 @@ export const CardBadge = (props: FlexProps) => {
         textTransform="uppercase"
         fontWeight="bold"
         letterSpacing="wider"
-        color={useColorModeValue('white', 'gray.800')}
+        color="white"
       >
         {children}
       </Text>

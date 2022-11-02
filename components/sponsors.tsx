@@ -92,12 +92,11 @@ const Sponsors: React.FC = () => (
       </h3>
       <SupplierLogos /> */}
     </div>
-    <AmountCovered />
-    <div className="text-white">
+      <AmountCovered />
+    <div className="flex-1">
       <SponsorshipPackage />
+      <Testimonials />
     </div>
-    <Testimonials />
-    <div className="flex-1 bg-black"></div>
   </section>
 );
 

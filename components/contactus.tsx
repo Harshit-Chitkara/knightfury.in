@@ -1,54 +1,6 @@
 import React, { useState, useCallback } from "react";
 import Image from "next/image";
 import axios from "axios";
-import {
-  Slider,
-  SliderTrack,
-  SliderFilledTrack,
-  SliderThumb,
-  SliderMark,
-  Tooltip,
-} from "@chakra-ui/react";
-
-function SliderThumbWithTooltip() {
-  const [sliderValue, setSliderValue] = React.useState(5);
-  const [showTooltip, setShowTooltip] = React.useState(false);
-  return (
-    <Slider
-      id="slider"
-      defaultValue={0}
-      min={0}
-      max={100000}
-      colorScheme="purple"
-      onChange={(v) => setSliderValue(v)}
-      onMouseEnter={() => setShowTooltip(true)}
-      onMouseLeave={() => setShowTooltip(false)}
-    >
-      <SliderMark value={20000} mt="1" ml="-2.5" fontSize="sm">
-        ₹20000
-      </SliderMark>
-      <SliderMark value={35000} mt="1" ml="-2.5" fontSize="sm">
-        ₹35000
-      </SliderMark>
-      <SliderMark value={50000} mt="1" ml="-2.5" fontSize="sm">
-        ₹50000
-      </SliderMark>
-      <SliderTrack>
-        <SliderFilledTrack />
-      </SliderTrack>
-      <Tooltip
-        hasArrow
-        bg="teal.500"
-        color="white"
-        placement="top"
-        isOpen={showTooltip}
-        label={`${sliderValue}%`}
-      >
-        <SliderThumb />
-      </Tooltip>
-    </Slider>
-  );
-}
 
 const ContactUs: React.FC = () => {
   const [status, setStatus] = useState({
@@ -117,7 +69,10 @@ const ContactUs: React.FC = () => {
   );
 
   return (
-    <div className="bg-black text-white flex flex-col justify-center min-h-screen" id="contactus">
+    <div
+      className="bg-black text-white flex flex-col justify-center min-h-screen"
+      id="contactus"
+    >
       <div className="flex flex-1 flex-col justify-center items-center">
         <div>
           <Image src={"/assets/logo.png"} width={130} height={160} alt="logo" />

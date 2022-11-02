@@ -5,8 +5,6 @@ import {
   List,
   ListIcon,
   ListItem,
-  Text,
-  useColorModeValue,
   VStack,
 } from "@chakra-ui/react";
 import * as React from "react";

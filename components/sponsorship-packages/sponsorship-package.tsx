@@ -13,6 +13,7 @@ export const SponsorshipPackage = () => (
       mx="auto"
       justifyItems="center"
       alignItems="center"
+      className="text-white"
     >
       <PricingCard
         data={{
@@ -34,7 +35,6 @@ export const SponsorshipPackage = () => (
         }
       />
       <PricingCard
-        className="text-white"
         zIndex={1}
         isMostValue
         data={{
@@ -55,7 +55,7 @@ export const SponsorshipPackage = () => (
           ],
         }}
         icon={HiCurrencyRupee}
-        button={<ActionButton>Sponsor Us</ActionButton>}
+        button={<ActionButton variant="outline">Sponsor Us</ActionButton>}
       />
       <PricingCard
         data={{
