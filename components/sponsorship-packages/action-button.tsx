@@ -1,6 +1,5 @@
 import { Button, ButtonProps } from "@chakra-ui/react";
 import * as React from "react";
-import s from "/styles/action-button.module.css";
 
 export const ActionButton = (props: ButtonProps) => (
   <div>

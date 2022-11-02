@@ -48,7 +48,7 @@ const Sponsors: React.FC = () => (
         Our Sponsors (TBA)
       </h3>
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
-        <Box w="100%" align="center">
+        <Box w="100%">
           <NextLink href="https://knightfury.in/">
             <LinkBox cursor="pointer">
               <Image
@@ -67,7 +67,7 @@ const Sponsors: React.FC = () => (
             </LinkBox>
           </NextLink>
         </Box>
-        <Box w="100%" align="center">
+        <Box w="100%">
           <NextLink href="https://knightfury.in/">
             <LinkBox cursor="pointer">
               <Image
