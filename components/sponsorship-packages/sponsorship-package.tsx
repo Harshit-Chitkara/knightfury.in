@@ -1,4 +1,4 @@
-import { Box, SimpleGrid, useColorModeValue } from "@chakra-ui/react";
+import { Box, SimpleGrid } from "@chakra-ui/react";
 import * as React from "react";
 import { HiCurrencyRupee } from "react-icons/hi";
 import { ActionButton } from "./action-button";

@@ -1,4 +1,4 @@
-import { Flex, FlexProps, Text, useColorModeValue } from '@chakra-ui/react'
+import { Flex, FlexProps, Text } from '@chakra-ui/react'
 import * as React from 'react'
 
 export const CardBadge = (props: FlexProps) => {
