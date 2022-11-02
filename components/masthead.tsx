@@ -22,29 +22,12 @@ const Masthead: React.FC = () => {
       className="min-h-screen flex flex-col items-center justify-center"
       style={{ transform: `translateY(-${progress * 20}vh)` }}
     >
-      <video
-        autoPlay
-        loop
-        muted
-        playsInline
-        className="absolute w-full h-full object-cover"
-      >
-        <source
-          src={"https://margelo.io/assets/masthead-bg.mp4"}
-          type="video/mov;"
-        />
-      </video>
       <div
         className={`flex-grow-0 pt-10 transition-opacity duration-1000 ${
           imageLoaded ? "opacity-100" : "opacity-0"
         }`}
       >
-        <Image
-          src="/assets/logo.png"
-          width={130}
-          height={160}
-          alt="logo"
-        />
+        <Image src="/assets/logo.png" width={130} height={160} alt="logo" />
       </div>
 
       <div className="p-12 font-bold z-10 text-white drop-shadow-[0_5px_4px_rgba(0,0,0,0.4)] text-center flex-1 flex items-center justify-center flex-col mb-16">

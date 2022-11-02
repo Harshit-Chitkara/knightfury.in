@@ -30,7 +30,7 @@ export const AmountCovered = () => {
           <StatNumber>₹0</StatNumber>
           <StatHelpText fontSize={18}>
             <StatArrow type="increase" />
-            Oct 01 - Nov 01
+            Oct 01 - Today
           </StatHelpText>
         </Stat>
       </h3>
