@@ -26,10 +26,10 @@ const AboutUs: React.FC = () => {
         </p>
       </div>
       <div className="container mx-auto px-11 text-center mt-16">
-        <h2 className="text-4xl mb-8">Our Team</h2>
+        <h2 className="text-4xl mb-8 font-extrabold">Our Team</h2>
         <span className="text-2xl xl:text-3xl">
           &ldquo;Great things in business are never done by one person. They are
-          done by a team of people&rdquo;
+          done by a team of people&rdquo;<strong> ~ Steve Jobs </strong>
         </span>
         <div className="mt-14 grid grid-cols md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-6 lg:gap-20">
           <Member id="dhanika" name="Dhanika Bhayana" post="Team Manager" />
