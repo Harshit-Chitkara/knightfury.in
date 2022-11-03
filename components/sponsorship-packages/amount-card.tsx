@@ -29,7 +29,7 @@ export const PricingCard = (props: PricingCardProps) => {
   const accentColor = "#98A8F8";
 
   return (
-    <Card rounded={{ sm: "xl" }} {...rest}>
+    <Card rounded="xl" {...rest}>
       <VStack spacing={3}>
         <Icon aria-hidden as={icon} fontSize="4xl" color={accentColor} />
         <Heading size="lg" fontWeight="extrabold">
