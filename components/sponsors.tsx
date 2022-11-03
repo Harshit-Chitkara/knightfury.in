@@ -43,18 +43,18 @@ const Sponsors: React.FC = () => (
     className={`bg-white min-h-screen flex flex-col justify-center gap-8 md:gap-16 text-black ${styles.bg}`}
   >
     <div className="flex-1 bg-black"></div>
-    <div className="flex flex-col justify-center items-center">
+    <div className="flex flex-col justify-center items-center text-center">
       <h3 className="mb-12 font-bold text-4xl lg:text-5xl tracking-tight text-center px-10 !leading-[3.5rem]">
         Our Sponsors (TBA)
       </h3>
-      <SimpleGrid columns={[1, 1, 2]} gap={6}>
+      <SimpleGrid columns={[1, 1, 2]} gap={14}>
         <Box w="100%">
           <NextLink href="https://knightfury.in/">
             <LinkBox cursor="pointer">
               <Image
                 src="/assets/sponsors/sponsor-logo.svg"
                 height={100}
-                width={300}
+                width={250}
                 alt="Sponsor Logo"
                 className="grid-item-thumbnail"
               />
@@ -73,7 +73,7 @@ const Sponsors: React.FC = () => (
               <Image
                 src="/assets/sponsors/sponsor-logo.svg"
                 height={100}
-                width={300}
+                width={250}
                 alt="Sponsor Logo"
                 className="grid-item-thumbnail"
               />
