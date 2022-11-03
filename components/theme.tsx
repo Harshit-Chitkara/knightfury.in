@@ -4,5 +4,10 @@ const fonts = {
   body: "'Raleway'",
 };
 
-const theme = extendTheme({ fonts });
+const config = {
+  useSystemColorMode: false,
+}
+
+
+const theme = extendTheme({ fonts, config });
 export default theme;
