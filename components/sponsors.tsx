@@ -5,13 +5,6 @@ import {
   LinkBox,
   LinkOverlay,
   SimpleGrid,
-  HStack,
-  Progress,
-  Stat,
-  StatLabel,
-  StatNumber,
-  StatHelpText,
-  StatArrow,
 } from "@chakra-ui/react";
 import Image from "next/image";
 import NextLink from "next/link";
@@ -21,26 +14,9 @@ import Testimonials from "./testimonials";
 import styles from "../styles/sponsors.module.css";
 import { SponsorshipPackage } from "./sponsorship-packages/sponsorship-package";
 
-export const AmountCovered = () => {
-  return (
-    <div className="container mx-auto lg:max-w-[70%] lg:px-10">
-      <h3 className="text-xl lg:text-2xl tracking-tight text-center px-10">
-        <Stat>
-          <StatLabel fontSize={24}>Amount Covered</StatLabel>
-          <StatNumber>₹0</StatNumber>
-          <StatHelpText fontSize={18}>
-            <StatArrow type="increase" />
-            Oct 01 - Today
-          </StatHelpText>
-        </Stat>
-      </h3>
-    </div>
-  );
-};
-
 const Sponsors: React.FC = () => (
   <section
-    className={`bg-white min-h-screen flex flex-col justify-center gap-8 md:gap-16 text-black ${styles.bg}`}
+    className={`bg-white min-h-screen flex flex-col justify-center gap-12 md:gap-24 text-black ${styles.bg}`}
   >
     <div className="flex-1 bg-black"></div>
     <div className="flex flex-col justify-center items-center text-center">
@@ -92,7 +68,6 @@ const Sponsors: React.FC = () => (
       </h3>
       <SupplierLogos /> */}
     </div>
-      <AmountCovered />
     <div className="flex-1">
       <SponsorshipPackage />
       {/* <Testimonials /> */}
