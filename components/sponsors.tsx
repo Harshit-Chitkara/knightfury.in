@@ -95,7 +95,7 @@ const Sponsors: React.FC = () => (
       <AmountCovered />
     <div className="flex-1">
       <SponsorshipPackage />
-      <Testimonials />
+      {/* <Testimonials /> */}
     </div>
   </section>
 );

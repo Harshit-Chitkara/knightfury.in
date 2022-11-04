@@ -1,33 +1,48 @@
-import React from "react";
-import Link from "next/link";
-import Image from "next/image";
+import {
+  ButtonGroup,
+  Container,
+  IconButton,
+  Stack,
+  Text,
+} from "@chakra-ui/react";
+import * as React from "react";
+import { FaInstagram, FaFacebook, FaTwitter } from "react-icons/fa";
+import Logo from "./logo";
 
-const Footer: React.FC = () => (
-  <footer className=" flex gap-12 lg:gap-28 items-center justify-center bg-black text-white p-20">
-    <a href="https://www.facebook.com/knightfuryindia/" target="_facebook">
-      <link
-        href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-        rel="stylesheet"
-      />
-      <i className="fa fa-facebook-square fa-4x"></i>
-    </a>
-    <div className="wrapper">
-      <a href="https://instagram.com/knight_fury_india" target="_instagram">
-        <div className="bg">
-          <div className="inner">
-            <i className="fa fa-instagram fa-4x"></i>
-          </div>
-        </div>
-      </a>
-    </div>
-    <a href="https://twitter.com/Team_KnightFury" target="_twitter">
-      <link
-        href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-        rel="stylesheet"
-      />
-      <i className="fa fa-twitter fa-4x"></i>
-    </a>
-  </footer>
+const Footer = () => (
+  <div className="bg-black">
+    <Container maxW="-moz-fit-content" as="footer" role="contentinfo" py={{ base: "12", md: "16" }}>
+      <Stack spacing={{ base: "4", md: "5" }}>
+        <Stack justify="space-between" direction="row" align="center">
+          <Logo />
+          <ButtonGroup variant="ghost">
+            <IconButton
+              as="a"
+              href="https://www.instagram.com/knight_fury_india/"
+              aria-label="Instagram"
+              icon={<FaInstagram fontSize="2rem" />}
+            />
+            <IconButton
+              as="a"
+              href="https://www.facebook.com/knightfuryindia/"
+              aria-label="Facebook"
+              icon={<FaFacebook fontSize="2rem" />}
+            />
+            <IconButton
+              as="a"
+              href="#"
+              aria-label="Twitter"
+              icon={<FaTwitter fontSize="2rem" />}
+            />
+          </ButtonGroup>
+        </Stack>
+        <Text fontSize="md" color="gray">
+          &copy; {new Date().getFullYear()} Knight Fury. All rights
+          reserved.
+        </Text>
+      </Stack>
+    </Container>
+  </div>
 );
 
 export default Footer;
