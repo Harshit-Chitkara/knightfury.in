@@ -30,7 +30,7 @@ const Footer = () => (
             />
             <IconButton
               as="a"
-              href="#"
+              href="https://twitter.com/knightfury_in"
               aria-label="Twitter"
               icon={<FaTwitter fontSize="2rem" />}
             />
