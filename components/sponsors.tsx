@@ -25,27 +25,27 @@ const Sponsors: React.FC = () => (
       </h3>
       <SimpleGrid columns={[1, 1, 2]} gap={14}>
         <Box w="100%">
-          <NextLink href="https://knightfury.in/">
+          <NextLink href="https://mitsubishielectric.in/">
             <LinkBox cursor="pointer">
               <Image
-                src="/assets/sponsors/sponsor-logo.svg"
+                src="/assets/sponsors/mitsubishi-electric.svg"
                 height={100}
-                width={250}
+                width={315}
                 alt="Sponsor Logo"
                 className="grid-item-thumbnail"
               />
-              <LinkOverlay href="https://knightfury.in/">
-                <Text mt={2} fontSize={24}>
-                  Sponsor Company 1
+              <LinkOverlay href="https://mitsubishielectric.in/">
+                <Text mt={1} className="underline underline-offset-4 decoration-2" fontSize={24}>
+                  Mitsubishi Electric
                 </Text>
               </LinkOverlay>
-              <Text fontSize={18}>About the company</Text>
             </LinkBox>
           </NextLink>
+          <Text mt={2} fontSize={18} fontWeight="light" maxW="96">One of the world's leading names in the manufacture and sales of electrical and electronic products</Text>
         </Box>
         <Box w="100%">
-          <NextLink href="https://knightfury.in/">
-            <LinkBox cursor="pointer">
+          {/* <NextLink href="https://knightfury.in/"> */}
+            {/* <LinkBox cursor="pointer"> */}
               <Image
                 src="/assets/sponsors/sponsor-logo.svg"
                 height={100}
@@ -53,14 +53,14 @@ const Sponsors: React.FC = () => (
                 alt="Sponsor Logo"
                 className="grid-item-thumbnail"
               />
-              <LinkOverlay href="https://knightfury.in/">
-                <Text mt={2} fontSize={24}>
+              {/* <LinkOverlay href="https://knightfury.in/"> */}
+              <Text mt={1} className="underline underline-offset-4 decoration-2" fontSize={24}>
                   Sponsor Company 2
                 </Text>
-              </LinkOverlay>
-              <Text fontSize={18}>About the company</Text>
-            </LinkBox>
-          </NextLink>
+              {/* </LinkOverlay> */}
+              <Text fontSize={18} fontWeight="light">About the company</Text>
+            {/* </LinkBox> */}
+          {/* </NextLink> */}
         </Box>
       </SimpleGrid>
       {/* <h3 className="text-3xl lg:text-4xl mt-8 mb-12 font-bold text-center">
