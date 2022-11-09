@@ -21,7 +21,7 @@ const Sponsors: React.FC = () => (
     <div className="flex-1 bg-black"></div>
     <div className="flex flex-col justify-center items-center text-center">
       <h3 className="mb-12 font-bold text-4xl lg:text-5xl tracking-tight text-center px-10 !leading-[3.5rem]">
-        Our Sponsors (TBA)
+        Our Sponsors
       </h3>
       <SimpleGrid columns={[1, 1, 2]} gap={14}>
         <Box w="100%">
