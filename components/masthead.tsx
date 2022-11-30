@@ -1,4 +1,5 @@
 import React, { useRef, useContext, useState, useCallback } from "react";
+import { Tooltip } from '@chakra-ui/react'
 import Image from "next/image";
 import { ScrollContext } from "../utils/scroll-observer";
 
@@ -23,9 +24,8 @@ const Masthead: React.FC = () => {
       style={{ transform: `translateY(-${progress * 20}vh)` }}
     >
       <div
-        className={`flex-grow-0 pt-10 transition-opacity duration-1000 ${
-          imageLoaded ? "opacity-100" : "opacity-0"
-        }`}
+        className={`flex-grow-0 pt-10 transition-opacity duration-1000 ${imageLoaded ? "opacity-100" : "opacity-0"
+          }`}
       >
         <Image src="/assets/logo.png" width={130} height={160} alt="logo" />
       </div>
@@ -36,19 +36,20 @@ const Masthead: React.FC = () => {
           <span>F1 in Schools Team</span>
         </h2>
       </div>
-      <div
-        className={`flex-grow-0 pb-20 md:pb-10 transition-all duration-1000 ${
-          imageLoaded ? "opacity-100" : "opacity-0 -translate-y-20"
-        }`}
-      >
-        <Image
-          src={"/assets/arrow-down.webp"}
-          width={188 / 3}
-          height={105 / 3}
-          alt="scroll down"
-          onLoadingComplete={handleImageLoaded}
-        />
-      </div>
+      <Tooltip label='Scroll Below' color="white" bg="transparent" fontSize="xl" boxShadow="dark-lg">
+        <div
+          className={`flex-grow-0 pb-20 md:pb-10 transition-all duration-1000 ${imageLoaded ? "opacity-100" : "opacity-0 -translate-y-20"
+            }`}>
+
+          <Image
+            src={"/assets/arrow-down.webp"}
+            width={188 / 3}
+            height={105 / 3}
+            alt="scroll down"
+            onLoadingComplete={handleImageLoaded}
+          />
+        </div>
+      </Tooltip>
     </div>
   );
 };

@@ -8,7 +8,6 @@ import Skills from "../components/team_history";
 import Sponsors from "../components/sponsors";
 import Works from "../components/team_members";
 import Footer from "../components/footer";
-import { ChakraProvider } from "@chakra-ui/react";
 
 const fetcher = (input: any, init?: any) =>
   fetch(input, init).then((res) => res.json());

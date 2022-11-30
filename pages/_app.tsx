@@ -6,17 +6,17 @@ import { ChakraProvider } from "@chakra-ui/react";
 import theme from "../utils/theme";
 import { Fonts } from "../components/fonts";
 
-function MyApp({ Component, pageProps }: AppProps) {
+function KnightFury({ Component, pageProps }: AppProps) {
   return (
     <ChakraProvider theme={theme}>
       <Fonts />
-    <SizeObserver>
-      <ScrollObserver>
-        <Component {...pageProps} />
-      </ScrollObserver>
-    </SizeObserver>
+      <SizeObserver>
+        <ScrollObserver>
+          <Component {...pageProps} />
+        </ScrollObserver>
+      </SizeObserver>
     </ChakraProvider>
   );
 }
 
-export default MyApp;
+export default KnightFury;

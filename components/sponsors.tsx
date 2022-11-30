@@ -70,7 +70,7 @@ const Sponsors: React.FC = () => (
     </div>
     <div className="flex-1">
       <SponsorshipPackage />
-      {/* <Testimonials /> */}
+      <Testimonials />
     </div>
   </section>
 );
