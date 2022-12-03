@@ -31,7 +31,7 @@ const Sponsors: React.FC = () => (
                 src="/assets/sponsors/mitsubishi-electric.svg"
                 height={100}
                 width={315}
-                alt="Sponsor Logo"
+                alt="Mitsubishi Electric"
                 className="grid-item-thumbnail"
               />
               <LinkOverlay href="https://mitsubishielectric.in/">
@@ -41,26 +41,26 @@ const Sponsors: React.FC = () => (
               </LinkOverlay>
             </LinkBox>
           </NextLink>
-          <Text mt={2} fontSize={18} fontWeight="light" maxW="96">One of the world's leading names in the manufacture and sales of electrical and electronic products</Text>
+          <Text mt={2} fontSize={18} fontWeight="light" maxW="96">Mitsubishi Electric is one of the world's leading names in the manufacture and sales of electrical and electronic products and systems used in a broad range of fields and applications.</Text>
         </Box>
         <Box w="100%">
-          {/* <NextLink href="https://knightfury.in/"> */}
-            {/* <LinkBox cursor="pointer"> */}
+          <NextLink href="http://pragyaprakashan.com">
+            <LinkBox cursor="pointer">
               <Image
-                src="/assets/sponsors/sponsor-logo.svg"
+                src="/assets/sponsors/pragya-prakashan.jpg"
                 height={100}
-                width={250}
-                alt="Sponsor Logo"
+                width={295}
+                alt="Pragya Prakashan"
                 className="grid-item-thumbnail"
               />
-              {/* <LinkOverlay href="https://knightfury.in/"> */}
-              <Text mt={1} className="underline underline-offset-4 decoration-2" fontSize={24}>
-                  Sponsor Company 2
+              <LinkOverlay href="http://pragyaprakashan.com">
+                <Text mt={1} className="underline underline-offset-4 decoration-2" fontSize={24}>
+                  Pragya Prakashan
                 </Text>
-              {/* </LinkOverlay> */}
-              <Text fontSize={18} fontWeight="light">About the company</Text>
-            {/* </LinkBox> */}
-          {/* </NextLink> */}
+              </LinkOverlay>
+            </LinkBox>
+          </NextLink>
+          <Text mt={2} fontSize={18} fontWeight="light" maxW="96">Educational publisher of books for ICSE/CBSE affiliated schools, Pragya Prakshan is a publishing house of distinction established in 1993.</Text>
         </Box>
       </SimpleGrid>
       {/* <h3 className="text-3xl lg:text-4xl mt-8 mb-12 font-bold text-center">
