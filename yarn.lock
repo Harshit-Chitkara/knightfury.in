@@ -158,13 +158,6 @@
   dependencies:
     "@chakra-ui/icon" "3.0.11"
 
-"@chakra-ui/color-mode@2.1.9":
-  "integrity" "sha512-0kx0I+AQon8oS23/X+qMtnhsv/1BUulyJvU56p3Uh8CRaBfgJ7Ly9CerShoUL+5kadu6hN1M9oty4cugaCwv2w=="
-  "resolved" "https://registry.npmjs.org/@chakra-ui/color-mode/-/color-mode-2.1.9.tgz"
-  "version" "2.1.9"
-  dependencies:
-    "@chakra-ui/react-use-safe-layout-effect" "2.0.2"
-
 "@chakra-ui/control-box@2.0.10":
   "integrity" "sha512-sHmZanFLEv4IDATl19ZTxq8Bi8PtjfvnsN6xF4k7JGSYUnk1YXUf1coyW7WKdcsczOASrMikfsLc3iEVAzx4Ng=="
   "resolved" "https://registry.npmjs.org/@chakra-ui/control-box/-/control-box-2.0.10.tgz"
@@ -697,7 +690,6 @@
   "resolved" "https://registry.npmjs.org/@chakra-ui/system/-/system-2.3.0.tgz"
   "version" "2.3.0"
   dependencies:
-    "@chakra-ui/color-mode" "2.1.9"
     "@chakra-ui/react-utils" "2.0.8"
     "@chakra-ui/styled-system" "2.3.4"
     "@chakra-ui/theme-utils" "2.0.1"
