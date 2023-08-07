@@ -5,11 +5,9 @@ import SizeObserver from "@/utils/size-observer";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <SizeObserver>
       <ScrollObserver>
         <Component {...pageProps} />
       </ScrollObserver>
-    </SizeObserver>
   );
 }
 
