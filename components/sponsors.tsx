@@ -70,6 +70,28 @@ const Sponsors = () => (
             <SponsorLeft progress={progress}>
               <div>Educational Partner</div>
               <div className="text-4xl md:text-5xl font-semibold tracking-tight">
+                <SponsorLink href="https://maped.com">Maped</SponsorLink>
+              </div>
+            </SponsorLeft>
+            <SponsorRight progress={progress}>
+              <Image
+                src="/assets/sponsors/maped.png"
+                layout="responsive"
+                width={840}
+                height={1620}
+                alt="Maped"
+              />
+            </SponsorRight>
+          </SponsorContainer>
+        )}
+      ></Tile>
+      <Tile
+        page={3}
+        renderContent={({ progress }) => (
+          <SponsorContainer>
+            <SponsorLeft progress={progress}>
+              <div>Educational Partner</div>
+              <div className="text-4xl md:text-5xl font-semibold tracking-tight">
                 <SponsorLink href="https://www.yep.education">
                   Yep Education
                 </SponsorLink>
@@ -88,7 +110,7 @@ const Sponsors = () => (
         )}
       ></Tile>
       <Tile
-        page={3}
+        page={4}
         renderContent={({ progress }) => (
           <SponsorContainer>
             <SponsorLeft progress={progress}>
@@ -112,7 +134,7 @@ const Sponsors = () => (
         )}
       ></Tile>
       <Tile
-        page={4}
+        page={5}
         renderContent={({ progress }) => (
           <SponsorContainer>
             <SponsorLeft progress={progress}>
@@ -130,28 +152,6 @@ const Sponsors = () => (
                 width={840}
                 height={1620}
                 alt="Seed to Plant"
-              />
-            </SponsorRight>
-          </SponsorContainer>
-        )}
-      ></Tile>
-      <Tile
-        page={5}
-        renderContent={({ progress }) => (
-          <SponsorContainer>
-            <SponsorLeft progress={progress}>
-              <div>Educational Partner</div>
-              <div className="text-4xl md:text-5xl font-semibold tracking-tight">
-                <SponsorLink href="https://maped.com">Maped</SponsorLink>
-              </div>
-            </SponsorLeft>
-            <SponsorRight progress={progress}>
-              <Image
-                src="/assets/sponsors/maped.png"
-                layout="responsive"
-                width={840}
-                height={1620}
-                alt="Maped"
               />
             </SponsorRight>
           </SponsorContainer>
