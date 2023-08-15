@@ -19,7 +19,7 @@ const SocialLink: React.FC<LinkProps> = ({ href, children }) => (
 );
 
 const Footer: React.FC = () => (
-  <footer className="flex gap-8 items-center justify-center bg-black text-white p-12">
+  <footer className="flex gap-14 items-center justify-center bg-black text-white p-12">
     <div className="wrapper">
       <a href="https://instagram.com/knightfury.in" target="_instagram">
         <div className="bg">
