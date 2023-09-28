@@ -7,37 +7,32 @@ const Testimonials: React.FC = () => (
   <Carousel className="bg-black text-white py-10 lg:py-20">
     <CarouselItem index={0}>
       <Review by="Mitsubishi Electric India">
-        Glad to be associated with Knight Fury, six young pioneers, striving to achieve excellence. All the best to them for the Regional Level.
+        Glad to be associated with Knight Fury, six young pioneers, striving to achieve excellence. All the very best to them for the Regional Level.
       </Review>
     </CarouselItem>
     <CarouselItem index={1}>
-      <Review by="Sponsor Company 2">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.
+      <Review by="Pragya Prakashan">
+        Good job team Knight Fury! Congratulations on qualifying for the regionals. The team's portfolio is also outstanding.
       </Review>
     </CarouselItem>
     <CarouselItem index={2}>
-      <Review by="Sponsor Company 3">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.
+      <Review by="Maped">
+        Team Knight Fury reached out to us via mail. At first they seemed too good to be true. Maped and Knight Fury both share the ambition of always doing our best.
       </Review>
     </CarouselItem>
     <CarouselItem index={3}>
-      <Review by="Sponsor Company 4">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.
+      <Review by="Orange Education">
+        Proud to be sponsoring Knight Fury. A team of 6 enthusiastic, dedicated and ridiculously talented students. Best of luck to them for their competition.
       </Review>
     </CarouselItem>
     <CarouselItem index={4}>
-      <Review by="Sponsor Company 5">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.
+      <Review by="Yep Education">
+        Pleased with Knight Fury's communication, insight and delivery. Utterly satisfied to see such knowledge of Return on Investments in children. All the best from our team.
       </Review>
     </CarouselItem>
     <CarouselItem index={5}>
-      <Review by="Sponsor Company 6">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.
+      <Review by="Seed to Plant">
+        It was wonderful to collaborate with Team Knight Fury. Best of luck to them for the Regional Qualifiers.
       </Review>
     </CarouselItem>
   </Carousel>
