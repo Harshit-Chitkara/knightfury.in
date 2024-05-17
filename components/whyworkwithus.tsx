@@ -19,7 +19,7 @@ const WhyWorkWithUs: React.FC = () => (
           Both your company and our team can benefit by forging an
           alliance. If with your kind support we can once again reach the
           finals, your company will get the opportunity to advertise your
-          product or service at a national level. Additionally, your company will
+          product or service at a in level. Additionally, your company will
           get the chance to support a small team to gain the potential to touch
           its dreams and meet its goals.
         </h3>

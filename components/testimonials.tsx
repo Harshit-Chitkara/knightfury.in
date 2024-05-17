@@ -12,7 +12,7 @@ const Testimonials: React.FC = () => (
     </CarouselItem>
     <CarouselItem index={1}>
       <Review by="Pragya Prakashan">
-        Good job team Knight Fury! Congratulations on qualifying for the regionals. The team&apos;s portfolio is also outstanding.
+        Good job team Knight Fury! Congratulations on qualifying for the nationals. The team&apos;s portfolio is also outstanding.
       </Review>
     </CarouselItem>
     <CarouselItem index={2}>
@@ -32,7 +32,7 @@ const Testimonials: React.FC = () => (
     </CarouselItem>
     <CarouselItem index={5}>
       <Review by="Seed to Plant">
-        It was wonderful to collaborate with Team Knight Fury. Best of luck to them for the Regional Qualifiers.
+        It was wonderful to collaborate with Team Knight Fury. Best of luck to them for the National Qualifiers.
       </Review>
     </CarouselItem>
   </Carousel>
