@@ -1,7 +1,5 @@
-import type { NextPage } from "next";
-import { SpeedInsights } from "@vercel/speed-insights/next";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import Head from "next/head";
-import Image from "next/image";
 import Masthead from "../components/masthead";
 import AboutUs from "../components/aboutus";
 import TeamHistory from "../components/team_history";
