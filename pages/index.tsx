@@ -1,4 +1,5 @@
 import type { NextPage } from "next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import Head from "next/head";
 import Image from "next/image";
 import Masthead from "../components/masthead";
@@ -12,6 +13,7 @@ import Footer from "../components/footer";
 export default function Home() {
   return (
     <div>
+      <SpeedInsights />
       <Head>
         <title>Knight Fury | F1 in Schools</title>
         <meta name="description" content="" />
