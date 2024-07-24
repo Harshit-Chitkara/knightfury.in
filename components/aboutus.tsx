@@ -44,11 +44,7 @@ const AboutUs: React.FC = () => {
         </span>
         <div className="mt-14 grid grid-cols md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-6 lg:gap-20">
           <Member id="kshitij" name="Kshitij Jadwani" post="Team Manager" />
-          <Member
-            id="pulkit"
-            name="Pulkit Malhotra"
-            post="Manufacturing Enginner"
-          />
+          <Member id="pulkit" name="Pulkit Malhotra" post="Design Enginner" />
           <Member
             id="harshit"
             name="Harshit Chitkara"
@@ -59,7 +55,11 @@ const AboutUs: React.FC = () => {
             name="Harshil Chitkara"
             post="Graphic Designer"
           />
-          <Member id="aarav" name="Aarav Khattar" post="Design Engineer" />
+          <Member
+            id="aarav"
+            name="Aarav Khattar"
+            post="Manufacturing Engineer"
+          />
           <Member id="arjanvir" name="Arjanvir Singh" post="Resource Manager" />
         </div>
       </div>
