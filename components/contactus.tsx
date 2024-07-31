@@ -11,7 +11,6 @@ const ContactUs: React.FC = () => {
   const [inputs, setInputs] = useState({
     companyName: "",
     email: "",
-    sponsorshipAmount: "",
     message: "",
   });
 
@@ -38,7 +37,6 @@ const ContactUs: React.FC = () => {
       setInputs({
         companyName: "",
         email: "",
-        sponsorshipAmount: "",
         message: "",
       });
     } else {
@@ -121,16 +119,6 @@ const ContactUs: React.FC = () => {
                 className="bg-black text-white outline-none border-2 border-white rounded-3xl px-8 py-2"
                 onChange={handleOnChange}
                 value={inputs.email}
-              />
-              <input
-                id="sponsorshipAmount"
-                required
-                maxLength={12}
-                type="text"
-                placeholder="Sponsorship Amount (₹)"
-                className="bg-black text-white outline-none border-2 border-white rounded-3xl px-8 py-2"
-                onChange={handleOnChange}
-                value={inputs.sponsorshipAmount}
               />
               <textarea
                 id="message"
