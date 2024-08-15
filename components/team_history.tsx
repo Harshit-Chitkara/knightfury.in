@@ -11,7 +11,7 @@ const opacityForBlock = (sectionProgress: number, blockNo: number) => {
 const TeamHistory: React.FC = () => {
   const { scrollY } = useContext(ScrollContext);
   const refContainer = useRef<HTMLDivElement>(null);
-  const numberOfPages = 3;
+  const numberOfPages = 4;
   let progress = 0;
   const { current: elContainer } = refContainer;
   if (elContainer) {
@@ -43,13 +43,19 @@ const TeamHistory: React.FC = () => {
             className={`${s.skillText} inline-block after:content-['_']`}
             style={{ opacity: opacityForBlock(progress, 1) }}
           >
-            The team orignated in Ambience Public School, New Delhi
+            The team won the Best Pit Display award and got nominated for Team Identity Award
+          </span>
+          <span
+            className={`${s.skillText} inline-block after:content-['_']`}
+            style={{ opacity: opacityForBlock(progress, 2) }}
+          >
+            And landed in the top 4 during the Knockout Championship at the Regional level.
           </span>
           <span
             className={`${s.skillText} inline-block`}
-            style={{ opacity: opacityForBlock(progress, 2) }}
+            style={{ opacity: opacityForBlock(progress, 3) }}
           >
-            The team has made it to the national level in each season, yet.
+            The team will be participating next in the National Finals 2023-24.
           </span>
         </div>
       </div>

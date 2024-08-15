@@ -10,7 +10,7 @@ import {
 } from "./sponsor";
 
 const Sponsors = () => (
-  <TileWrapper numOfPages={6}>
+  <TileWrapper numOfPages={9}>
     <TileBackground>
       <SponsorBackground />
     </TileBackground>
@@ -22,18 +22,16 @@ const Sponsors = () => (
             <SponsorLeft progress={progress}>
               <div>Title Sponsor</div>
               <div className="text-4xl md:text-5xl font-semibold tracking-tight">
-                <SponsorLink href="https://www.mitsubishielectric.com">
-                  Mitsubishi Electric
-                </SponsorLink>
+                <SponsorLink href="https://noizbord.in">NoizBord</SponsorLink>
               </div>
             </SponsorLeft>
             <SponsorRight progress={progress}>
               <Image
-                src="/assets/sponsors/mitsubishi-electric.svg"
+                src="/assets/sponsors/noizbord.svg"
                 layout="responsive"
-                width={840 / 3}
-                height={1620 / 3}
-                alt="Mitsubishi Electric"
+                width={840}
+                height={1620}
+                alt="NoizBord"
               />
             </SponsorRight>
           </SponsorContainer>
@@ -44,20 +42,20 @@ const Sponsors = () => (
         renderContent={({ progress }) => (
           <SponsorContainer>
             <SponsorLeft progress={progress}>
-              <div>Publication Partner</div>
+              <div>Financial Sponsor</div>
               <div className="text-4xl md:text-5xl font-semibold tracking-tight">
-                <SponsorLink href="http://pragyaprakashan.com">
-                  Pragya Prakashan
+                <SponsorLink href="https://www.mitsubishielectric.com">
+                  Mitsubishi Electric
                 </SponsorLink>
               </div>
             </SponsorLeft>
             <SponsorRight progress={progress}>
               <Image
-                src="/assets/sponsors/pragya-prakashan.svg"
+                src="/assets/sponsors/mitsubishi-electric.svg"
                 layout="responsive"
                 width={840}
                 height={1620}
-                alt="Pragya Prakashan"
+                alt="Mitsubishi Electric"
               />
             </SponsorRight>
           </SponsorContainer>
@@ -68,18 +66,18 @@ const Sponsors = () => (
         renderContent={({ progress }) => (
           <SponsorContainer>
             <SponsorLeft progress={progress}>
-              <div>Educational Partner</div>
+              <div>Financial Sponsor</div>
               <div className="text-4xl md:text-5xl font-semibold tracking-tight">
-                <SponsorLink href="https://maped.com">Maped</SponsorLink>
+                <SponsorLink href="https://iocl.com">IndianOil</SponsorLink>
               </div>
             </SponsorLeft>
             <SponsorRight progress={progress}>
               <Image
-                src="/assets/sponsors/maped.png"
+                src="/assets/sponsors/indian-oil.svg"
                 layout="responsive"
                 width={840}
                 height={1620}
-                alt="Maped"
+                alt="Indian Oil"
               />
             </SponsorRight>
           </SponsorContainer>
@@ -90,20 +88,20 @@ const Sponsors = () => (
         renderContent={({ progress }) => (
           <SponsorContainer>
             <SponsorLeft progress={progress}>
-              <div>Educational Partner</div>
+              <div>Digital Marketing Partner</div>
               <div className="text-4xl md:text-5xl font-semibold tracking-tight">
-                <SponsorLink href="https://www.yep.education">
-                  Yep Education
+                <SponsorLink href="https://www.wearebyond.com/">
+                  Byond Media
                 </SponsorLink>
               </div>
             </SponsorLeft>
             <SponsorRight progress={progress}>
               <Image
-                src="/assets/sponsors/yep-education.png"
+                src="/assets/sponsors/byond-media.png"
                 layout="responsive"
                 width={840}
                 height={1620}
-                alt="Yep Education"
+                alt="Byond Media"
               />
             </SponsorRight>
           </SponsorContainer>
@@ -114,20 +112,18 @@ const Sponsors = () => (
         renderContent={({ progress }) => (
           <SponsorContainer>
             <SponsorLeft progress={progress}>
-              <div>Technological Partner</div>
+              <div>Merchandise Partner</div>
               <div className="text-4xl md:text-5xl font-semibold tracking-tight">
-                <SponsorLink href="https://orangeeducation.in">
-                  Orange Education
-                </SponsorLink>
+                Star Studio
               </div>
             </SponsorLeft>
             <SponsorRight progress={progress}>
               <Image
-                src="/assets/sponsors/orange-education.png"
+                src="/assets/sponsors/star-studio.svg"
                 layout="responsive"
                 width={840}
                 height={1620}
-                alt="Orange Education"
+                alt="Star Studio"
               />
             </SponsorRight>
           </SponsorContainer>
@@ -138,20 +134,88 @@ const Sponsors = () => (
         renderContent={({ progress }) => (
           <SponsorContainer>
             <SponsorLeft progress={progress}>
-              <div>Educational Partner</div>
+              <div>Bearings Provider</div>
               <div className="text-4xl md:text-5xl font-semibold tracking-tight">
-                <SponsorLink href="http://seedtoplant.in">
-                  Seed to Plant
+                <SponsorLink href="https://www.f1bearings.com/">
+                  F1 Bearings
                 </SponsorLink>
               </div>
             </SponsorLeft>
             <SponsorRight progress={progress}>
               <Image
-                src="/assets/sponsors/seed-to-plant.jpg"
+                src="/assets/sponsors/f1-bearings.png"
                 layout="responsive"
                 width={840}
                 height={1620}
-                alt="Seed to Plant"
+                alt="F1 Bearings"
+              />
+            </SponsorRight>
+          </SponsorContainer>
+        )}
+      ></Tile>
+      <Tile
+        page={6}
+        renderContent={({ progress }) => (
+          <SponsorContainer>
+            <SponsorLeft progress={progress}>
+              <div>CAA Software Provider</div>
+              <div className="text-4xl md:text-5xl font-semibold tracking-tight">
+                <SponsorLink href="https://airshaper.com/">
+                  AirShaper
+                </SponsorLink>
+              </div>
+            </SponsorLeft>
+            <SponsorRight progress={progress}>
+              <Image
+                src="/assets/sponsors/airshaper.svg"
+                layout="responsive"
+                width={840}
+                height={1620}
+                alt="AirShaper"
+              />
+            </SponsorRight>
+          </SponsorContainer>
+        )}
+      ></Tile>
+      <Tile
+        page={7}
+        renderContent={({ progress }) => (
+          <SponsorContainer>
+            <SponsorLeft progress={progress}>
+              <div>Sustainability Partner</div>
+              <div className="text-4xl md:text-5xl font-semibold tracking-tight">
+                EcoGen
+              </div>
+            </SponsorLeft>
+            <SponsorRight progress={progress}>
+              <Image
+                src="/assets/sponsors/ecogen.svg"
+                layout="responsive"
+                width={840}
+                height={1620}
+                alt="EcoGen"
+              />
+            </SponsorRight>
+          </SponsorContainer>
+        )}
+      ></Tile>
+      <Tile
+        page={8}
+        renderContent={({ progress }) => (
+          <SponsorContainer>
+            <SponsorLeft progress={progress}>
+              <div>Apparel Partner</div>
+              <div className="text-4xl md:text-5xl font-semibold tracking-tight">
+                Spree Firit
+              </div>
+            </SponsorLeft>
+            <SponsorRight progress={progress}>
+              <Image
+                src="/assets/sponsors/spree-firit.svg"
+                layout="responsive"
+                width={840}
+                height={1620}
+                alt="Spree Firit"
               />
             </SponsorRight>
           </SponsorContainer>

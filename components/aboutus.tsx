@@ -37,7 +37,7 @@ const AboutUs: React.FC = () => {
         </p>
       </div>
       <div className="container mx-auto px-11 text-center mt-16">
-        <h2 className="text-4xl mb-8 font-extrabold">Our Team</h2>
+        <h2 className="text-4xl mb-8 font-extrabold">Meet the Knights</h2>
         <span className="text-2xl xl:text-3xl">
           &ldquo;Great things in business are never done by one person. They are
           done by a team of people&rdquo;<strong> ~ Steve Jobs </strong>
