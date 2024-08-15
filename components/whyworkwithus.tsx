@@ -19,10 +19,10 @@ const WhyWorkWithUs: React.FC = () => (
           We're proud to say we've made it to the nationals in every season and
           some of the members of our team have been there since 2 or even 3
           seasons prior to this. Our team has won various accolades such as
-          Knockout Champions, Best Verbal Presentation, Best Engineered Car,
+          Knockout Champions&apos; Best Verbal Presentation&apos; Best Engineered Car&apos;
           with the Best Pit Display award we won in the Regionals being our most
           recent. Both your company and our team can benefit by forging an
-          alliance. Additionally, your company will get the chance to support a
+          alliance. Additionally&apos; your company will get the chance to support a
           small team to gain the potential to touch its dreams and meet its
           goals.
         </h3>
